@@ -1,0 +1,103 @@
+/* src/pages/home.css */
+.home__page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .home__navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .navbar__logo img {
+    width: 50px;
+  }
+  
+  .navbar__content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav__link {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav__link:hover {
+    color: #ffcc00;
+  }
+  
+ 
+  .home__header {
+    text-align: center;
+    margin: 3rem 0;
+    padding: 1rem;
+    background-image: url('../../assets/home4.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  .home__header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home__header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .cta__button {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta__button:hover {
+    background-color: #0056b3;
+  }
+  
+  .home__features {
+    padding: 2rem;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .home__features h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  .home__features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .home__features li {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+  
+  .home__footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #343a40;
+    color: white;
+    margin-top: auto;
+  }
+  

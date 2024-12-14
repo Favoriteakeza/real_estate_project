@@ -1,0 +1,119 @@
+/* Container styling */
+.dashboard__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #ffffff;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+  }
+  
+  /* Title and subtitle */
+  .dashboard__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #2b5876;
+  }
+  .dashboard__subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555555;
+  }
+  
+  /* Summary section */
+  .dashboard__summary {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Summary cards */
+  .dashboard__card {
+    background-color: #f9f9f9;
+    color: #333333;
+    width: 220px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .dashboard__card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card__title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #4e4376;
+  }
+  
+  .card__value {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  /* Additional Information Section */
+  .dashboard__details {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .details__card {
+    background-color: #f4f4f4;
+    color: #333333;
+    width: 300px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details__card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #2b5876;
+  }
+  
+  /* Recent Activity Section */
+  .dashboard__activity {
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 800px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .dashboard__activity h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #2b5876;
+  }
+  
+  .activity__list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .activity__list li {
+    font-size: 1rem;
+    color: #555555;
+    margin-bottom: 0.5rem;
+  }
+  

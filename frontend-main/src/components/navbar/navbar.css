@@ -1,0 +1,80 @@
+.home__navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 5rem;
+  }
+  
+  .navbar__logo {
+    width: 100px;
+  }
+  
+  .navbar__logo img {
+    width: 90%;
+    border-radius: 50%;
+  }
+  
+  .navbar__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 4rem;
+  }
+  
+  .nav__link {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding: 1.5rem 1rem;
+    list-style: none;
+  }
+  
+  .nav__link a {
+    color: white;
+    text-decoration: none;
+    line-height: 18px;
+    font-size: 1rem;
+  }
+  .nav__links {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #007bff; /* Button background color */
+    display: inline-block;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .nav__links:hover {
+    background-color: #0056b3; /* Darker background on hover */
+    transform: scale(1.1); /* Slightly scale the button up */
+  }
+  
+  .nav__links:active {
+    transform: scale(1); /* Reset scale on click */
+  }
+  
+  .nav__links button {
+    background-color: transparent; /* For the logout button */
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+  }
+  
+  .nav__links button:hover {
+    background-color: #0056b3; /* Same hover effect as links */
+    transform: scale(1.1);
+  }
+  
+  .nav__links button:active {
+    transform: scale(1);
+  }
