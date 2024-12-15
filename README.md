@@ -58,7 +58,7 @@ To start the frontend server:
 ## **How to Use**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Favoriteakeza/real_estate.git
+   git clone https://github.com/Favoriteakeza/real_estate_project.git
    ```
 2. Follow the setup instructions for both backend and frontend.
 3. Open the browser and navigate to `http://localhost:3000` to view the application.
