@@ -14,8 +14,8 @@ A simple web application for real estate development, focused on showcasing and 
 ## **Project Setup**
 
 ### **Backend**
-The backend is built with Node.js.  
-- **Run Command:** `npm run dev`  
+The backend is built with springboot.  
+- **Run Command:** `mvn spring-boot:run`  
 - **Runs On:** `http://localhost:5000`  
 
 To start the backend server:
@@ -25,11 +25,11 @@ To start the backend server:
    ```
 2. Install dependencies:
    ```bash
-   npm install
+   mvn clean install
    ```
-3. Start the development server using Nodemon:
+3. Start the development server :
    ```bash
-   npm run dev
+   mvn spring-boot:run
    ```
 
 ---
@@ -67,7 +67,7 @@ To start the frontend server:
 
 ## **Technology Stack**
 - **Frontend:** React.js
-- **Backend:** Node.js, Express
+- **Backend:** springboot, Express
 - **Database:** Postgres
 
 ---
